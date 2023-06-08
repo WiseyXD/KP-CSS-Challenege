@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --firstBG : #F3EED9;
+    --secondBG : #222C2A;
+    --thirdBG : #824936;
+    --white : white;
+}
+
+.container
+{
+    max-width: 1128px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.backGroundFirst
+{
+    background-color: var(--firstBG);
+}
+
+.backGroundSecond
+{
+    background-color: var(--secondBG);
+}
+
+.backGroundThird
+{
+    background-color: var(--thirdBG);
+}
+
+.whiteColor
+{
+    color: var(--white);
+}
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 660px;
+}
+
+.innerText
+{
+    text-align: center;
+    width: 70%;
+}
+.colorText
+{
+    color: var(--thirdBG);
+}
+
+.upperCase
+{
+    text-transform: uppercase;
+}
+
+.flexUp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexBot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 50%; */
+}
+
+.flexBasis
+{
+    width: 50%;
+}
+
+.flexBasis + .flexBasis
+{
+    margin-left: 2rem;
+}
+
+.halfText
+{
+    width: 75%;
+    text-align: left;
+}
+
+.flex3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexReverse
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBasis2
+{
+    width: 50%;
+}
+
+.flexBasis2 + .flexBasis2
+{
+    margin-right: 2rem;
+}
+
+.img1
+{
+    justify-self: end;
+}
+
+.paddingSection
+{
+    padding: 3rem 0;
+}
+
+.paddingDiv
+{
+    padding: 2rem 0;
+}
+h1{
+    font-size: 60px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+    color: var(--thirdBG);
+}
+
+h2{
+    font-size: 36px;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+h3{
+    font-size: 21px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+}
+
+img,svg,picture{
+    width: 100%;
+}
